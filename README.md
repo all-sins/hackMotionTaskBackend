@@ -1,5 +1,26 @@
 # hackMotionTaskBackend
 
+![hackmotionBackend](https://github.com/user-attachments/assets/d6f08fbe-d8c2-4f0c-9056-7938f7384e09)
+
+## Tech Stack
+
+Backend Framework
+* Spring Boot 3.4.3
+
+Core Dependencies
+* Spring Web (REST API)
+* Spring Data MongoDB (NoSQL database)
+* Lombok (Boilerplate code reduction)
+
+Testing & Tooling
+* Spring Boot Starter Test (Testing framework)
+* Maven Compiler Plugin (Java compilation)
+* Spring Boot Maven Plugin (Packaging & execution)
+
+Runtime & Environment
+* Java 17
+* Maven (Build System)
+
 Start the MongoDB container:
 ```
 sudo docker compose up -d
@@ -18,4 +39,5 @@ Test scripts:
 ./clear-db.sh
 ```
 
-Logging is done with a timestamp in the /logs directory.
+Logging:
+Runtime logs are saved with a timestamp in the filename and stored in the /logs directory.
